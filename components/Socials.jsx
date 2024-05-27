@@ -3,15 +3,15 @@ import Link from 'next/link'
 
 const icons = [
 	{
-		path: '/',
+		path: 'https://github.com/EirikOrkelbog',
 		name: <RiGithubFill />,
 	},
 	{
-		path: '/',
+		path: 'https://www.instagram.com/eirik_orkelbog/',
 		name: <RiInstagramFill />,
 	},
 	{
-		path: '/',
+		path: 'https://www.linkedin.com/in/eirik-orkelbog/',
 		name: <RiLinkedinFill />,
 	},
 ]
@@ -21,7 +21,7 @@ const Socials = ({ containerStyles, iconStyles }) => {
 		<div className={`${containerStyles}`}>
 			{icons.map((icon, index) => {
 				return (
-					<Link href={icon.path} key={index}>
+					<Link href={icon.path} key={index} target="_blank">
 						<div className={`${iconStyles}`}>{icon.name}</div>
 					</Link>
 				)
