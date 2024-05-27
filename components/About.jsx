@@ -10,7 +10,7 @@ const infoData = [
 	},
 	{
 		icon: <PhoneIcon size={20} />,
-		text: '94842424',
+		text: '+47 948 42 424',
 	},
 	{
 		icon: <MailIcon size={20} />,
@@ -26,7 +26,7 @@ const infoData = [
 	},
 	{
 		icon: <HomeIcon size={20} />,
-		text: 'Øygarden, Bergen',
+		text: 'Øygarden, Norway',
 	},
 ]
 
@@ -35,19 +35,24 @@ const educationData = [
 		title: 'education',
 		data: [
 			{
-				university: 'Kristiiania University College',
-				degree: 'One year study',
-				years: '2023 - 2024',
-			},
-			{
-				university: 'Høyskolen i Innlandet',
-				degree: 'Bachelor in organisajon og ledelse',
+				university: 'Kristiania University College',
+				degree: 'Front-End Development',
 				years: '2022 - 2023',
 			},
 			{
-				university: 'Kristiiania University College',
-				degree: 'One year study',
-				years: 'Aug 2023 - Jun 2024',
+				university: 'Inland University College',
+				degree: 'Organization and Management',
+				years: '2021 - 2022',
+			},
+			{
+				university: 'University of Agder',
+				degree: 'Economy and Administration',
+				years: '2020 - 2021',
+			},
+			{
+				university: 'Inland University College',
+				degree: 'Economy and Administration',
+				years: '2018 - 2020',
 			},
 		],
 	},
@@ -60,18 +65,23 @@ const experienceData = [
 		data: [
 			{
 				company: 'Kodeverket',
-				role: 'Frontend developer',
-				years: '2024 - now',
+				role: 'Front-End Developer',
+				years: '2024 - 2024',
 			},
 			{
-				company: 'Kodeverket',
-				role: 'Frontend developer',
-				years: '2024 - now',
+				company: 'Generator Digital',
+				role: 'Marketing Assistant',
+				years: '2020 - 2021',
 			},
 			{
-				company: 'Kodeverket',
-				role: 'Frontend developer',
-				years: '2024 - now',
+				company: 'NG KIWI VEST AS',
+				role: 'Store employee',
+				years: '2019 - 2019',
+			},
+			{
+				company: 'NG KIWI VEST AS',
+				role: 'Store employee',
+				years: '2017 - 2018',
 			},
 		],
 	},
@@ -88,7 +98,13 @@ const skillData = [
 				name: 'JavaScript',
 			},
 			{
+				name: 'React',
+			},
+			{
 				name: 'Next.js',
+			},
+			{
+				name: 'Git',
 			},
 			{
 				name: 'Sanity',
@@ -118,7 +134,7 @@ const About = () => {
 				<h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>About me</h2>
 				<div className='flex flex-col xl:flex-row'>
 					<div className='hidden xl:flex flex-1 relative'>
-						<DevImg containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/about/developer.png' />
+						<DevImg containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/about/profile.png' />
 					</div>
 					<div className='flex-1'>
 						<Tabs defaultValue='personal'>
@@ -130,8 +146,7 @@ const About = () => {
 							<div className='text-lg mt-12 xl:mt-8'>
 								<TabsContent value='personal'>
 									<div className='text-center xl:text-left'>
-										<h3 className='h3 mb-4'>Unmatched service for over 2 years</h3>
-										<p className='subtitle max-w-xl mx-auto xl:mx-0'>I specialice in crafting websites with cutting edge technology.</p>
+										<h3 className='h3 mb-8'>Personal Information</h3>
 										<div className='grid xl:grid-cols-2 gap-4 mb-12'>
 											{infoData.map((item, index) => (
 												<div className='flex items-center gap-x-4 mx-auto xl:mx-0' key={index}>
