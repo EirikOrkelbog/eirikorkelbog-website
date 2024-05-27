@@ -11,70 +11,70 @@ import { Pagination } from 'swiper/modules';
 
 import ProjectCard from './ProjectCard';
 
-const projectData = [
+export const projectData = [
 	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
+		image: '/work/resort-world.png',
+		category: 'javascript',
+		name: 'Resort World',
+		description: 'Recreation of Expedias page',
+		link: 'https://resort-world-concept.netlify.app/',
+		github: 'https://github.com/EirikOrkelbog/Resorts-World',
 	},
 	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
+		image: '/work/todo-list.png',
+		category: 'vue',
+		name: 'Todo List',
+		description: 'A simple todo list app with local storage',
+		link: 'https://addtaskapp.netlify.app/',
+		github: 'https://github.com/EirikOrkelbog/todo-list-app',
 	},
 	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
+		image: '/work/ai-chat.png',
+		category: 'typescript',
+		name: 'AI Chat App',
+		description: "I'm using OpenAI's API",
+		link: 'https://ai-chat-app-olive.vercel.app/',
+		github: 'https://github.com/EirikOrkelbog/ai-chat-app',
 	},
 	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
+		image: '/work/dictionary-app.png',
+		category: 'javascript',
+		name: 'Dictionary App',
+		description: "Search for a word and find the meaning",
+		link: 'https://dictionaryyy-app.netlify.app/',
+		github: 'https://github.com/EirikOrkelbog/Dictionary-App',
 	},
 	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
+		image: '/work/guess-number.png',
+		category: 'javascript',
+		name: 'Guess My Number',
+		description: "Number guessing game",
+		link: 'https://guess-numberrrr-app.netlify.app/',
+		github: 'https://github.com/EirikOrkelbog/Guess-My-Number',
 	},
 	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
+		image: '/work/portfolio.png',
+		category: 'next.js',
+		name: 'Portfolio',
+		description: "My portfolio page",
 		link: '/',
-		github: '/',
+		github: 'https://github.com/EirikOrkelbog/eirikorkelbog-website',
 	},
 	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
+		image: '/work/movie-search.png',
+		category: 'javascript',
+		name: 'Movie search app',
+		description: "Get information about movies",
+		link: 'https://movie-search-apppp.netlify.app/',
+		github: 'https://github.com/EirikOrkelbog/Movie-Search-App',
 	},
 	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
+		image: '/work/recipe-app.png',
+		category: 'javascript',
+		name: 'Recipe App',
+		description: "Get recipe based on ingredient",
+		link: 'https://fooood-recipe-app.netlify.app/',
+		github: 'https://github.com/EirikOrkelbog/Food-Recipe-App',
 	},
 ];
 
@@ -83,8 +83,7 @@ export default function Work() {
 		<section className='mb-12 xl:mb-48'>
 			<div className='container mx-auto relative'>
 				<div className='max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start'>
-					<h2 className='section-title mb-4'>Latest Projects</h2>
-					<p className='subtitle mb-8'>something about the projects or something</p>
+					<h2 className='section-title mb-8'>Latest Projects</h2>
 					<Link href='/projects'>
 						<Button>All projects</Button>
 					</Link>
