@@ -14,7 +14,7 @@ export default function Hero() {
 						<h1 className='h1'>Hello, my name is Eirik Orkelbog</h1>
 						<p className='subtitle max-w-[490px] mx-auto xl:mx-0'>I take pleasure in crafting code that places a strong emphasis on design, accessibility, and strict adherence to industry best practices. I love to learn and improve my skills while building cool projects.</p>
 						<div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
-							<Link href="/contact">
+							<Link href="mailto:eirikorkelbog@gmail.com">
 								<Button className='gap-x-2'>
 									Contact me <Send size={18} />
 								</Button>
