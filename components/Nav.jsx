@@ -7,7 +7,6 @@ const links = [
 	{ path: '/', name: 'home' },
 	{ path: '/projects', name: 'projects' },
 	{ path: '/about', name: 'about me' },
-	{ path: '/contact', name: 'contact' },
 ]
 
 export default function Nav({ containerStyles, linkStyles, underlineStyles }) {
