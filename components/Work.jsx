@@ -13,36 +13,12 @@ import ProjectCard from './ProjectCard';
 
 export const projectData = [
 	{
-		image: '/work/resort-world.png',
-		category: 'javascript',
-		name: 'Resort World',
-		description: 'Recreation of Expedias page',
-		link: 'https://resort-world-concept.netlify.app/',
-		github: 'https://github.com/EirikOrkelbog/Resorts-World',
-	},
-	{
-		image: '/work/todo-list.png',
-		category: 'vue',
-		name: 'Todo List',
-		description: 'A simple todo list app with local storage',
-		link: 'https://addtaskapp.netlify.app/',
-		github: 'https://github.com/EirikOrkelbog/todo-list-app',
-	},
-	{
 		image: '/work/ai-chat.png',
 		category: 'typescript',
 		name: 'AI Chat App',
 		description: "I'm using OpenAI's API",
 		link: 'https://ai-chat-app-olive.vercel.app/',
 		github: 'https://github.com/EirikOrkelbog/ai-chat-app',
-	},
-	{
-		image: '/work/dictionary-app.png',
-		category: 'javascript',
-		name: 'Dictionary App',
-		description: "Search for a word and find the meaning",
-		link: 'https://dictionaryyy-app.netlify.app/',
-		github: 'https://github.com/EirikOrkelbog/Dictionary-App',
 	},
 	{
 		image: '/work/guess-number.png',
@@ -61,6 +37,14 @@ export const projectData = [
 		github: 'https://github.com/EirikOrkelbog/eirikorkelbog-website',
 	},
 	{
+		image: '/work/dictionary-app.png',
+		category: 'javascript',
+		name: 'Dictionary App',
+		description: "Search for a word and find the meaning",
+		link: 'https://dictionaryyy-app.netlify.app/',
+		github: 'https://github.com/EirikOrkelbog/Dictionary-App',
+	},
+	{
 		image: '/work/movie-search.png',
 		category: 'javascript',
 		name: 'Movie search app',
@@ -75,6 +59,22 @@ export const projectData = [
 		description: "Get recipe based on ingredient",
 		link: 'https://fooood-recipe-app.netlify.app/',
 		github: 'https://github.com/EirikOrkelbog/Food-Recipe-App',
+	},
+	{
+		image: '/work/resort-world.png',
+		category: 'javascript',
+		name: 'Resort World',
+		description: 'Recreation of Expedias page',
+		link: 'https://resort-world-concept.netlify.app/',
+		github: 'https://github.com/EirikOrkelbog/Resorts-World',
+	},
+	{
+		image: '/work/todo-list.png',
+		category: 'vue',
+		name: 'Todo List',
+		description: 'A simple todo list app with local storage',
+		link: 'https://addtaskapp.netlify.app/',
+		github: 'https://github.com/EirikOrkelbog/todo-list-app',
 	},
 ];
 
