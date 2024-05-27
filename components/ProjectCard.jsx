@@ -13,7 +13,7 @@ export default function ProjectCard({ project }) {
 						src={project.image}
 						width={247}
 						height={250}
-						alt=''
+						alt='project image'
 						priority
 					/>
 					<div className='flex gap-x-4'>
