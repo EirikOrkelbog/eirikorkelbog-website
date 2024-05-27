@@ -5,7 +5,8 @@ import { motion } from "framer-motion"
 
 const links = [
 	{ path: '/', name: 'home' },
-	{ path: '/projects', name: 'my projects' },
+	{ path: '/projects', name: 'projects' },
+	{ path: '/about', name: 'about me' },
 	{ path: '/contact', name: 'contact' },
 ]
 
