@@ -3,19 +3,19 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/
 
 const servicesData = [
 	{
-		icon: <SquareGanttChart size={72} strokeWidth={0.8} />,
-		title: 'Web Design',
-		description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum',
-	},
-	{
 		icon: <Blocks size={72} strokeWidth={0.8} />,
-		title: 'Web Design',
-		description: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum',
+		title: 'Web Development',
+		description: 'Unlock the full potential of your online presence with a converting website',
 	},
 	{
 		icon: <Gem size={72} strokeWidth={0.8} />,
 		title: 'Web Design',
-		description: 'is simply dummy text of the printing and typesetting industry',
+		description: 'Transform your ideas into a visually stunning and user-friendly website',
+	},
+	{
+		icon: <SquareGanttChart size={72} strokeWidth={0.8} />,
+		title: 'SEO',
+		description: 'Boost your online visibility and attract more organic traffic with SEO',
 	},
 ]
 
