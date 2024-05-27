@@ -2,80 +2,14 @@
 import { useState } from "react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import ProjectCard from "@/components/ProjectCard";
-
-const projectData = [
-	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
-	},
-	{
-		image: '/work/1.png',
-		category: 'javascript',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
-	},
-	{
-		image: '/work/1.png',
-		category: 'html/css',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
-	},
-	{
-		image: '/work/1.png',
-		category: 'next.js',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
-	},
-	{
-		image: '/work/1.png',
-		category: 'next.js',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
-	},
-	{
-		image: '/work/1.png',
-		category: 'html/css',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
-	},
-	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
-	},
-	{
-		image: '/work/1.png',
-		category: 'frontend',
-		name: 'Nexa Website',
-		description: 'description of the project and stuff',
-		link: '/',
-		github: '/',
-	},
-];
+import { projectData } from "@/components/Work";
 
 const uniqueCategories = [
 	'all projects',
 	...new Set(projectData.map((item) => item.category)),
 ];
 
-export default function Projects() {
+export default function ProjectsPage() {
 	const [categories, setCategories] = useState(uniqueCategories);
 	const [category, setCategory] = useState('all projects');
 
