@@ -67,14 +67,14 @@ const About = () => {
 								<TabsContent value='experience'>
 									<div>
 										<h3 className='h3 mb-8 text-center xl:text-left'>My Journey</h3>
-										<div className='flex flex-col gap-4'>
+										<div className='flex flex-col justify-center items-center gap-4'>
 											<p className='text-lg leading-relaxed text-center xl:text-left'>
 												{experienceText1}
 											</p>
 											<p className='text-lg leading-relaxed text-center xl:text-left'>
 												{experienceText2}
 											</p>
-											<Link href='mailto:eirikorkelbog@gmail.com'>
+											<Link href='mailto:eirikorkelbog@gmail.com' className='pt-8'>
 												<Button className='gap-x-2'>
 													Get in touch <Send size={18} />
 												</Button>
