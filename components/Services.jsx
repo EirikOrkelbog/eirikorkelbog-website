@@ -4,18 +4,18 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/
 const servicesData = [
 	{
 		icon: <Blocks size={72} strokeWidth={0.8} />,
-		title: 'Web Development',
-		description: 'Unlock the full potential of your online presence with a converting website',
+		title: 'Shopify Store Optimization',
+		description: 'Improve your store’s speed, layout, and user experience to convert more visitors into customers.',
 	},
 	{
 		icon: <Gem size={72} strokeWidth={0.8} />,
-		title: 'Web Design',
-		description: 'Transform your ideas into a visually stunning and user-friendly website',
+		title: 'Audits & Strategy Consulting',
+		description: 'Get a detailed, actionable report on where your store is leaking revenue and how to fix it.',
 	},
 	{
 		icon: <SquareGanttChart size={72} strokeWidth={0.8} />,
-		title: 'SEO',
-		description: 'Boost your online visibility and attract more organic traffic with SEO',
+		title: 'Store Setup & Theme Customization',
+		description: 'Full Shopify setup or redesign tailored to your brand — no bloated templates, just clean, effective design.',
 	},
 ]
 
