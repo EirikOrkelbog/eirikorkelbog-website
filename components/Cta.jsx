@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import { Send } from 'lucide-react'
 import Link from 'next/link';
 
 export default function Cta() {
@@ -6,9 +7,11 @@ export default function Cta() {
 		<section className=" py-24 bg-tertiary dark:bg-secondary/40">
 			<div className="container mx-auto">
 				<div className="flex flex-col items-center">
-					<h2 className="h2 max-w-xl text-center mb-8">Prepared to turn your ideas into reality? I am here to help</h2>
-					<Link href='/contact'>
-						<Button>Contact me</Button>
+					<h2 className="h2 text-center mb-8">Ready to optimize your Shopify store?</h2>
+					<Link href='mailto:eirikorkelbog@gmail.com'>
+						<Button className='gap-x-2'>
+							Get in touch <Send size={18} />
+						</Button>
 					</Link>
 				</div>
 			</div>
