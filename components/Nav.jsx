@@ -9,7 +9,7 @@ const links = [
 	{ path: '/about', name: 'about me' },
 ]
 
-export default function Nav({ containerStyles, linkStyles, underlineStyles }) {
+export default function Nav({ containerStyles, linkStyles, underlineStyles, onLinkClick }) {
 	const path = usePathname();
 	return (
 		<nav className={`${containerStyles}`}>
@@ -18,6 +18,7 @@ export default function Nav({ containerStyles, linkStyles, underlineStyles }) {
 					href={link.path}
 					key={index}
 					className={`capitalize ${linkStyles}`}
+					onClick={() => onLinkClick?.()}
 				>
 					{link.path === path && (
 						<motion.span
