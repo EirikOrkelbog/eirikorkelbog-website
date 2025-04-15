@@ -7,8 +7,8 @@ import ThemeProvider from "@/components/ThemeProvider";
 const open_sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Eirik Orkelbog",
-  description: "Eirik Orkelbog portfolio",
+  title: "Eirik Orkelbog - Shopify & CRO",
+  description: "Shopify Store Optimization & CRO Specialist",
 };
 
 export default function RootLayout({ children }) {
