@@ -9,7 +9,7 @@ export default function Footer() {
 						containerStyles='flex gap-x-6 mx-auto xl:mx-0 mb-4'
 						iconStyles='text-primary dark:text-white/70 text-[20px] hover:text-white dark:hover:text-primary transition-all'
 					/>
-					<div className="text-muted-foreground text-center">Copyright &copy; 2024 Eirik Orkelbog. All rights reserved.</div>
+					<div className="text-muted-foreground text-center">Copyright &copy; 2025 Eirik Orkelbog. All rights reserved.</div>
 				</div>
 			</div>
 		</footer>
