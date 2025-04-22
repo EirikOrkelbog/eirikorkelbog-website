@@ -1,26 +1,26 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
+// import Link from "next/link";
+// import { Button } from "@/components/ui/button";
 
-export default function CroPage() {
-	return (
-		<section className="py-12 xl:py-24">
-			<div className="container mx-auto">
-				<div className="flex max-w-[700px] flex-col items-center mx-auto text-center">
-					{/* HERO SECTION */}
-					<h1 className="h1 text-center">
-						Get More Sales From the Traffic You Already Have
-					</h1>
-					<p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-						I help DTC fitness & wellness brands convert more Shopify visitors into buyers — without redesigning your whole store.
-					</p>
-					<div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
-						<Link href=''>
-							<Button className='gap-x-2'>
-								Book a Free CRO Audit
-							</Button>
-						</Link>
-					</div>
-				</div>
+// export default function CroPage() {
+// 	return (
+// 		<section className="py-12 xl:py-24">
+// 			<div className="container mx-auto">
+// 				<div className="flex max-w-[700px] flex-col items-center mx-auto text-center">
+// 					{/* HERO SECTION */}
+// 					<h1 className="h1 text-center">
+// 						Get More Sales From the Traffic You Already Have
+// 					</h1>
+// 					<p className="subtitle max-w-[490px] mx-auto xl:mx-0">
+// 						I help DTC fitness & wellness brands convert more Shopify visitors into buyers — without redesigning your whole store.
+// 					</p>
+// 					<div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
+// 						<Link href=''>
+// 							<Button className='gap-x-2'>
+// 								Book a Free CRO Audit
+// 							</Button>
+// 						</Link>
+// 					</div>
+// 				</div>
 
 				{/* <section>
 				<h2 className="text-2xl font-semibold mb-4">How It Works</h2>
@@ -74,7 +74,7 @@ export default function CroPage() {
 				Email Me
 				</a>
 				</section> */}
-			</div>
-		</section>
-	);
-};
+// 			</div>
+// 		</section>
+// 	);
+// };
