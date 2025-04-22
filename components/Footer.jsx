@@ -2,7 +2,7 @@ import Socials from "./Socials"
 
 export default function Footer() {
 	return (
-		<footer className="bg-secondary py-12">
+		<footer className="bg-secondary pt-6 pb-2">
 			<div className="container mx-auto">
 				<div className="flex flex-col items-center justify-between">
 					<Socials
