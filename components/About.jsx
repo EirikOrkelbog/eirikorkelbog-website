@@ -46,7 +46,7 @@
 // }
 import DevImg from './DevImg'
 
-export function About() {
+export default function About() {
 	return (
 		<section className="container mx-auto">
 			<div className='flex justify-between items-center gap-x-8'>

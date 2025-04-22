@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 import Link from "next/link";
 
-export function Pricing() {
+export default function Pricing() {
 	return (
 		<section className="bg-tertiary dark:bg-secondary/40 py-16 px-6 md:px-12">
 			<div className="max-w-2xl mx-auto text-center">
