@@ -4,9 +4,10 @@ import { motion } from "framer-motion"
 
 
 const links = [
-	{ path: '/', name: 'home' },
-	{ path: '/projects', name: 'projects' },
-	{ path: '/about', name: 'about me' },
+	// { path: '/', name: 'home' },
+	// { path: '#whatIDo', name: 'What I Do' },
+	// { path: '#pricing', name: 'Pricing' },
+	// { path: '#aboutMe', name: 'about me' },
 ]
 
 export default function Nav({ containerStyles, linkStyles, underlineStyles, onLinkClick }) {

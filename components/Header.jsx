@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 import ThemeToggler from "./ThemeToggler"
 import Logo from "./Logo"
 import Nav from "./Nav"
-import MobileNav from "./MobileNav"
+// import MobileNav from "./MobileNav"
 
 export default function Header() {
 	const [header, setHeader] = useState(false);
@@ -29,9 +29,9 @@ export default function Header() {
 							linkStyles='relative hover:text-primary transition-all'
 							underlineStyles='absolute left-0 top-full h-[2px] bg-primary w-full' />
 						<ThemeToggler />
-						<div className="lg:hidden">
+						{/* <div className="lg:hidden">
 							<MobileNav />
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>
