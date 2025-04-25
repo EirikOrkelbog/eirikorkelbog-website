@@ -9,10 +9,10 @@ export default function Hero() {
 				{/* <div className='flex justify-between gap-x-8'> */}
 					<div className='flex max-w-[900px] flex-col items-center mx-auto text-center'>
 						<span className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Shopify & CRO</span>
-						<h1 className='h1'>Make Your Shopify Store Faster & Convert Better</h1>
-						<p className='subtitle max-w-[490px] mx-auto xl:mx-0'>One simple service. One flat fee. I audit and fix your store to turn more visitors into customers—no fluff, no retainers.</p>
+						<h1 className='h1'>Get More Sales from Your Existing Traffic</h1>
+						<p className='subtitle max-w-[490px] mx-auto xl:mx-0'>One simple service. One flat fee. I audit and fix your store to turn more visitors into customers.</p>
 						<div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
-							<Link href="/about">
+							<Link href="mailto:eirikorkelbog@gmail.com?subject=Free Audit Request">
 								<Button>Book a Free Audit</Button>
 							</Link>
 						</div>

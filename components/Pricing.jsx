@@ -12,7 +12,7 @@ export default function Pricing() {
 					<span className="text-sm">(In exchange for honest feedback and a testimonial)</span>
 				</p>
 				<div className="flex flex-col items-center bg-white dark:bg-tertiary shadow-md rounded-xl p-6">
-					<h3 className="text-2xl font-semibold mb-2">$199</h3>
+					<h3 className="text-2xl font-semibold mb-2">$325</h3>
 					<p className="mb-4">Flat fee. No upsells. No hidden fees.</p>
 					<ul className="text-left space-y-2 mb-6">
 						<li>✅ CRO Audit + Site Speed Optimization</li>
@@ -20,7 +20,7 @@ export default function Pricing() {
 						<li>✅ 7-Day Delivery</li>
 						<li>✅ 1 Round of Revisions</li>
 					</ul>
-					<Link href="/about">
+					<Link href="mailto:eirikorkelbog@gmail.com?subject=Free Audit Request">
 						<Button>Book a Free Audit</Button>
 					</Link>
 				</div>

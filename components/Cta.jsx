@@ -11,7 +11,7 @@ export default function Cta() {
 				<p className="text-lg mb-8">
 					Delivered in 7 days. No strings attached. Let’s boost your conversions together.
 				</p>
-				<Link href="/about">
+				<Link href="mailto:eirikorkelbog@gmail.com?subject=Free Audit Request">
 					<Button>Book a Free Audit</Button>
 				</Link>
 			</div>
