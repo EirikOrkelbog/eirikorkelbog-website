@@ -5,7 +5,7 @@ export default function About() {
 		<section className="container mx-auto">
 			<div className='flex justify-between items-center gap-x-8'>
 				<div className="max-w-2xl mx-auto">
-					<h2 className="h2 mb-6 text-center">👋 About Me</h2>
+					<h2 className="h2 mb-6 text-center">About Me</h2>
 					<p className="text-lg leading-relaxed text-start">
 						Hey, I’m <span className="font-semibold">Eirik</span> — I specialize in front-end development and Shopify theme customization, with hands-on experience in real stores—not just tutorials. I know where most Shopify stores break down (especially when store owners DIY too much), and I help you fix the things that frustrate customers—and kill conversions.
 					</p>
