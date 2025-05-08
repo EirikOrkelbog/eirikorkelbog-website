@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react"
 import { usePathname } from "next/navigation"
-import ThemeToggler from "./ThemeToggler"
 import Logo from "./Logo"
-import Nav from "./Nav"
+import Link from "next/link"
+import { Button } from "./ui/button"
+// import Nav from "./Nav"
 // import MobileNav from "./MobileNav"
 
 export default function Header() {
@@ -19,19 +20,18 @@ export default function Header() {
 		return () => window.removeEventListener('scroll', scrollYPos);
 	})
 	return (
-		<header className={`${header ? 'bg-white shadow-lg dark:bg-accent' : 'dark:bg-transparent'} sticky top-0 z-30 py-4 transition-all ${pathname === '/' && 'bg-[#fef9f5]'}`}>
+		<header className="bg-[#fef9f5] py-4">
 			<div className="container mx-auto">
 				<div className="flex justify-between items-center">
 					<Logo />
 					<div className="flex items-center gap-x-6">
-						<Nav
+						<Link href="mailto:eirikorkelbog@gmail.com" className="text-primary hover:text-black">
+							eirikorkelbog@gmail.com
+						</Link>
+						{/* <Nav
 							containerStyles='hidden lg:flex gap-x-8 items-center'
 							linkStyles='relative hover:text-primary transition-all'
-							underlineStyles='absolute left-0 top-full h-[2px] bg-primary w-full' />
-						<ThemeToggler />
-						{/* <div className="lg:hidden">
-							<MobileNav />
-						</div> */}
+							underlineStyles='absolute left-0 top-full h-[2px] bg-primary w-full' /> */}
 					</div>
 				</div>
 			</div>

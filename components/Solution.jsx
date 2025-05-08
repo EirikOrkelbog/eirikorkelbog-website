@@ -23,24 +23,22 @@ const data = [
 
 export default function Solution() {
 	return (
-		<div className="container mx-auto flex flex-col xl:items-center" id="whatIDo">
-			<h2 className="h2 mb-8 xl:mb-16">Problems & Solutions</h2>
-			<table className="table-auto border">
-				<thead className="bg-tertiary dark:bg-secondary/40">
-					<tr>
-						<th className="text-left p-3 font-bold border-b">Problem</th>
-						<th className="text-left p-3 font-bold border-b">Solution</th>
-					</tr>
-				</thead>
-				<tbody>
-					{data.map((row, i) => (
-						<tr key={i} className="border-t">
-							<td className="p-3 xl:pr-12 align-top">{row.problem}</td>
-							<td className="p-3 align-top">{row.solution}</td>
-						</tr>
-					))}
-				</tbody>
-			</table>
+		<div className="container mx-auto flex flex-col">
+			<h2 className="h2 mb-8 text-center">How It Works</h2>
+			<div className="flex flex-col items-center justify-center gap-16 xl:flex-row xl:gap-16">
+				<div className="flex flex-col items-center justify-center">
+					<h3 className="text-2xl font-semibold mb-2">1. Quick Discovery Call</h3>
+					<p className="xl:max-w-80 text-center">We talk about your goals, problems, and what success looks like.</p>
+				</div>
+				<div className="flex flex-col items-center justify-center">
+					<h3 className="text-2xl font-semibold mb-2">2. Execution</h3>
+					<p className="xl:max-w-80 text-center">I design and build—while you focus on your business.</p>
+				</div>
+				<div className="flex flex-col items-center justify-center">
+					<h3 className="text-2xl font-semibold mb-2">3. Final Review + Handoff</h3>
+					<p className="xl:max-w-80 text-center">You get a clean, tested store with clear documentation.</p>
+				</div>
+			</div>
 		</div>
 	)
 }

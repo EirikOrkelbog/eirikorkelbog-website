@@ -26,29 +26,6 @@
     --ring: 9 99% 67%;
     --radius: 0.5rem;
   }
-
-  .dark {
-    --background: 237 22% 20%;
-    --foreground: 60 9.1% 97.8%;
-    --card: 240 19% 16%;
-    --card-foreground: 300 0% 100%;
-    --popover: 20 14.3% 4.1%;
-    --popover-foreground: 60 9.1% 97.8%;
-    --primary: 8 99% 67%;
-    --primary-foreground: 300 0% 100%;
-    --secondary: 240 19% 16%;
-    --secondary-foreground: 300 0% 100%;
-    --tertiary: 237 22% 20%;
-    --muted: 12 6.5% 15.1%;
-    --muted-foreground: 237 13% 63%;
-    --accent: 240 19% 16%;
-    --accent-foreground: 300 0% 100%;
-    --destructive: 0 72.2% 50.6%;
-    --destructive-foreground: 60 9.1% 97.8%;
-    --border: 237 22% 23%;
-    --input: 237 22% 23%;
-    --ring: 8 99% 67%;
-  }
 }
 
 @layer base {
@@ -82,7 +59,7 @@
 }
 
 .section-title {
-  @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:dark:bg-dots_dark before:bg-no-repeat before:bg-center before:h-[24px] before:w-[24px];
+  @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:bg-no-repeat before:bg-center before:h-[24px] before:w-[24px];
 }
 
 .swiper-horizontal>.section-pagination-bullets .swiper-pagination-bullet,
