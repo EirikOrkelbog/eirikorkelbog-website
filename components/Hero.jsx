@@ -7,7 +7,7 @@ export default function Hero() {
 			<div className='container mx-auto'>
 					<div className='flex max-w-[1000px] flex-col items-center mx-auto text-center'>
 						<span className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Shopify Fixes</span>
-						<h1 className='h1'>Your Shopify Store Shouldn’t Look or Feel Amateur</h1>
+						<h1 className='h1'>Your Shopify Store Shouldn't Look or Feel Amateur</h1>
 						<p className='subtitle max-w-[490px] mx-auto xl:mx-0'>Maybe your homepage feels outdated. Maybe your products are a mess behind the scenes.
 						Either way—I'll fix it, properly.</p>
 						<div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
