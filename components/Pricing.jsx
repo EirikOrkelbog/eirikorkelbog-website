@@ -14,7 +14,7 @@ export default function Pricing() {
 					<ul className="text-left space-y-2 mb-6">
 						<li>✅ Shopify theme fixes & structure optimization</li>
 						<li>✅ Lead capture + email welcome flow</li>
-						<li>✅ SEO setup + 3-blog content roadmap</li>
+						<li>✅ SEO optimization</li>
 						<li>✅ Monthly strategy call</li>
 						<li>✅ 1 email campaign/month</li>
 						<li>✅ Minor site edits / testing (1 hour dev)</li>
