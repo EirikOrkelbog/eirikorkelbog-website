@@ -19,7 +19,7 @@ export default function Pricing() {
 						<li>✅ 1 email campaign/month</li>
 						<li>✅ Minor site edits / testing (1 hour dev)</li>
 					</ul>
-					<Link href="#">
+					<Link href="https://calendly.com/eirikorkelbog/free-30-minute-shopify-strategy-call">
 						<Button>Book Your Free Call</Button>
 					</Link>
 				</div>

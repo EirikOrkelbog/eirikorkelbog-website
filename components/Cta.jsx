@@ -8,7 +8,7 @@ export default function Cta() {
 				<h2 className="h2 mb-8">
 					Ready to Grow Your Shopify Store?
 				</h2>
-				<Link href="https://forms.gle/CkCBX9pGHr3NVsKL6">
+				<Link href="https://calendly.com/eirikorkelbog/free-30-minute-shopify-strategy-call">
 					<Button>Book a Free Strategy Call</Button>
 				</Link>
 			</div>
