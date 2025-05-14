@@ -25,18 +25,28 @@ export default function Solution() {
 	return (
 		<div className="container py-12 flex flex-col">
 			<h2 className="h2 mb-8 text-center">How It Works</h2>
-			<div className="flex flex-col items-center justify-center gap-4 xl:flex-row xl:gap-16">
-				<div className="bg-tertiary shadow-md rounded-xl p-6 flex flex-col items-center justify-center">
-					<h3 className="text-2xl font-semibold mb-2">1. Quick Discovery Call</h3>
-					<p className="xl:max-w-80 text-center">We talk about your goals, problems, and what success looks like.</p>
+			<div className="flex flex-col items-center justify-center gap-4 xl:gap-16 xl:flex-row">
+				<div className="bg-tertiary shadow-md rounded-xl px-12 py-8 flex flex-col gap-4">
+					<h3 className="text-2xl font-semibold mb-2">Step 1: Shopify Growth Sprint (Weeks 1-4)</h3>
+					<p>We start with a one-time, high-impact sprint:</p>
+					<ul className="list-disc flex flex-col gap-2">
+						<li>UX & CRO audit</li>
+						<li>Product & collection structure cleanup</li>
+						<li>Custom conversion sections (e.g. size guide, “shop the look”)</li>
+						<li>Lead capture setup + email automation</li>
+						<li>SEO fixes & analytics tracking installed</li>
+					</ul>
 				</div>
-				<div className="bg-tertiary shadow-md rounded-xl p-6 flex flex-col items-center justify-center">
-					<h3 className="text-2xl font-semibold mb-2">2. Execution</h3>
-					<p className="xl:max-w-80 text-center">I design and build—while you focus on your business.</p>
-				</div>
-				<div className="bg-tertiary shadow-md rounded-xl p-6 flex flex-col items-center justify-center">
-					<h3 className="text-2xl font-semibold mb-2">3. Final Review + Handoff</h3>
-					<p className="xl:max-w-80 text-center">You get a clean, tested store with clear documentation.</p>
+				<div className="bg-tertiary shadow-md rounded-xl px-12 py-8 flex flex-col gap-4">
+					<h3 className="text-2xl font-semibold mb-2">Step 2: Ongoing Growth Support (Monthly)</h3>
+					<p>We meet monthly to improve traffic and conversion. I handle:</p>
+					<ul className="list-disc flex flex-col gap-2">
+						<li>Email campaigns</li>
+						<li>Offer testing</li>
+						<li>Tracking insights</li>
+						<li>Ongoing CRO and small dev changes</li>
+					</ul>
+					<p>You get monthly momentum — without a bloated retainer.</p>
 				</div>
 			</div>
 		</div>

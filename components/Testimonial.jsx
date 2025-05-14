@@ -27,7 +27,7 @@ export default function Testimonial() {
 					</div>
 					<div className="mt-4">
 						<Link href="https://g.co/kgs/iu3f1Hn">
-							<p className="font-medium text-gray-900">- Google Review, Kine</p>
+							<p className="font-medium text-gray-900">- Google review, Kine</p>
 						</Link>
 					</div>
 				</div>
