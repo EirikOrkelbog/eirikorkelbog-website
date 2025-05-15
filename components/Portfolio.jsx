@@ -1,4 +1,5 @@
 import { Card } from "./ui/card";
+import Image from "next/image";
 
 export default function Portfolio() {
 	return (
@@ -9,21 +10,21 @@ export default function Portfolio() {
 				</h2>
 				<div className="grid gap-10 md:grid-cols-3">
 					<Card className="bg-card p-6 shadow-md">
-						<img src="/portfolio/lookbook-brand.jpg" alt="Lookbook Apparel" className="w-full h-60 object-cover" />
+						<Image src="/portfolio/lookbook-brand.jpg" alt="Lookbook Apparel" className="w-full h-60 object-cover" />
 						<div className="p-6 text-left">
 							<h3 className="text-xl font-semibold mb-2 text-gray-800">Lookbook Apparel</h3>
 							<p className="text-gray-600 text-sm">Full CRO redesign and growth infrastructure overhaul for a DTC fashion label selling gender-neutral streetwear.</p>
 						</div>
 					</Card>
 					<Card className="bg-card p-6 shadow-md">
-						<img src="/portfolio/boldbasics.jpg" alt="Bold Basics" className="w-full h-60 object-cover" />
+						<Image src="/portfolio/boldbasics.jpg" alt="Bold Basics" className="w-full h-60 object-cover" />
 						<div className="p-6 text-left">
 							<h3 className="text-xl font-semibold mb-2 text-gray-800">Bold Basics</h3>
 							<p className="text-gray-600 text-sm">Shopify structure cleanup, product page optimization, and automated email flows for a women&apos;s activewear brand.</p>
 						</div>
 					</Card>
 					<Card className="bg-card p-6 shadow-md">
-						<img src="/portfolio/nordwear.jpg" alt="Nordwear" className="w-full h-60 object-cover" />
+						<Image src="/portfolio/nordwear.jpg" alt="Nordwear" className="w-full h-60 object-cover" />
 						<div className="p-6 text-left">
 							<h3 className="text-xl font-semibold mb-2 text-gray-800">Nordwear</h3>
 							<p className="text-gray-600 text-sm">Built custom sections and implemented conversion systems for a premium Scandinavian outerwear brand on Shopify.</p>
