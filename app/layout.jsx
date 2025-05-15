@@ -1,9 +1,10 @@
-import { Open_Sans } from "next/font/google";
+import { Roboto, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const open_sans = Open_Sans({ subsets: ["latin"] });
+const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500'] });
+const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], weight: ['400', '500', '700'] });
 
 export const metadata = {
   title: "Shopify Freelancer - Redesign + Structure Fixes That Convert",
@@ -12,8 +13,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={open_sans.className}>
+    <html lang="en">
+      <body className={`${roboto.className} ${spaceGrotesk.variable}`}>
         <Header />
         {children}
         <Footer />

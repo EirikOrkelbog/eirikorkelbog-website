@@ -1,38 +1,33 @@
-import Link from "next/link";
+import { Card } from "./ui/card";
 
 export default function Testimonial() {
 	return (
-		<section className="px-4">
+		<section className="container">
 			<div className="max-w-3xl mx-auto">
-				<h2 className="h2 mb-8 text-center">
-					What Clients Say
-				</h2>
-				<div className="bg-tertiary p-6 rounded-2xl shadow-md border border-gray-100">
-					<div className="mb-4">
-						<div className="flex justify-center mt-1">
-							{Array.from({ length: 5 }).map((_, i) => (
-								<svg
-									key={i}
-									className="h-8 w-8 text-yellow-400"
-									fill="currentColor"
-									viewBox="0 0 20 20"
-								>
-									<path d="M10 15l-5.878 3.09L5.5 12.5 1 8.91l6.09-.89L10 2.5l2.91 5.52L19 8.91l-4.5 3.59.378 5.59z" />
-								</svg>
-							))}
-						</div>
-						<p className="mt-4 text-lg text-gray-700 italic">
-							“I’m incredibly happy with my new website! It’s modern, user-friendly, and functional - exactly what I wanted. The whole process was seamless, with clear communication, close follow-up, and a solution-oriented approach throughout. The final result exceeded my expectations. I highly recommend <strong>Eirik Orkelbog!</strong> Thank you for the great collaboration 👍”
-						</p>
-					</div>
-					<div className="mt-4">
-						<Link href="https://g.co/kgs/iu3f1Hn">
-							<p className="font-medium text-gray-900">- Google review, Kine</p>
-						</Link>
-					</div>
-				</div>
+				<Card className="p-10 shadow-md relative">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						strokeWidth="1.5"
+						stroke="currentColor"
+						className="w-10 h-10 text-primary absolute top-6 left-6"
+					>
+						<path
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							d="M7.5 15.75A3.75 3.75 0 0 1 3.75 12V9.75A3.75 3.75 0 0 1 7.5 6h.75A.75.75 0 0 1 9 6.75v3a.75.75 0 0 1-.75.75H7.5A.75.75 0 0 0 6.75 11.25v.75a.75.75 0 0 0 .75.75h.75a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-.75.75H7.5zM16.5 15.75A3.75 3.75 0 0 1 12.75 12V9.75A3.75 3.75 0 0 1 16.5 6h.75a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 0-.75.75v.75a.75.75 0 0 0 .75.75h.75a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-.75.75H16.5z"
+						/>
+					</svg>
+					<p className="text-lg md:text-xl text-gray-800 italic mb-4 mt-4 md:mt-0 pl-12">
+						“I&apos;m incredibly happy with my new website! It&apos;s modern, user-friendly, and functional - exactly what I wanted.”
+					</p>
+					<p className="text-lg md:text-xl text-gray-800 italic mb-4 pl-12">
+						“The whole process was seamless, with clear communication and a solution-oriented approach. The final result exceeded my expectations.”
+					</p>
+					<p className="text-sm text-gray-600 text-right">- Google review, Kine</p>
+				</Card>
 			</div>
 		</section>
 	);
 }
-

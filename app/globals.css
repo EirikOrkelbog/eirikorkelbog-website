@@ -5,26 +5,30 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 240 19% 16%;
+    --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
-    --card-foreground: 240 19% 16%;
+    --card-foreground: 240 10% 3.9%;
     --popover: 0 0% 100%;
-    --popover-foreground: 20 14.3% 4.1%;
-    --primary: 8 99% 67%;
-    --primary-foreground: 300 0% 100%;
-    --secondary: 240 19% 16%;
-    --secondary-foreground: 300 0% 100%;
-    --tertiary: 27 82% 98%;
-    --muted: 60 4.8% 95.9%;
-    --muted-foreground: 237 13% 40%;
-    --accent: 237 9% 96%;
-    --accent-foreground: 24 9.8% 10%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 142.1 76.2% 36.3%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 60 9.1% 97.8%;
-    --border: 8 82% 92%;
-    --input: 8 82% 92%;
-    --ring: 9 99% 67%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 142.1 76.2% 36.3%;
     --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
   }
 }
 
@@ -34,24 +38,24 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
   }
 }
 
 .h1 {
-  @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
+  @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold font-heading;
 }
 
 .h2 {
-  @apply text-4xl font-bold;
+  @apply text-4xl font-bold font-heading;
 }
 
 .h3 {
-  @apply text-3xl font-bold;
+  @apply text-3xl font-bold font-heading;
 }
 
 .h4 {
-  @apply text-[22px] font-semibold;
+  @apply text-[22px] font-semibold font-heading;
 }
 
 .subtitle {
@@ -60,9 +64,4 @@
 
 .section-title {
   @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:bg-no-repeat before:bg-center before:h-[24px] before:w-[24px];
-}
-
-.swiper-horizontal>.section-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  @apply bg-primary;
 }
