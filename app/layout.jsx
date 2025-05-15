@@ -7,8 +7,15 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500'] });
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], weight: ['400', '500', '700'] });
 
 export const metadata = {
-  title: "Shopify Freelancer - Redesign + Structure Fixes That Convert",
-  description: "I help Shopify stores get a modern redesign and clean backend structure so customers convert better—and you stop wasting time fixing broken stuff.",
+  title: "Shopify CRO for Fashion Brands - Eirik Orkelbog",
+  description: "Conversion-focused Shopify design and CRO for growing fashion e-commerce brands. Book a free call to optimize your site, drive more traffic, and increase sales.",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", type: "image/x-icon" },
+    ],
+    shortcut: ["/favicon.ico"],
+  },
 };
 
 export default function RootLayout({ children }) {
